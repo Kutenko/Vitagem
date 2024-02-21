@@ -1,0 +1,68 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .section-1 .layer .vitagem_text {
+    font-size: 150px; }
+    .section-1 .layer .vitagem_text span {
+      font-weight: 300; }
+  .section-3 .layer .bg_layer-1 {
+    width: 100%;
+    height: 100vh;
+    margin-top: -126px;
+    background-image: url(../img/third_layer-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .section-6 .content-item .rail.item-1 {
+    display: none; }
+  .section-6 .content-item .rail.item-2 {
+    display: none; }
+  .section-6 .content-item .rail.item-3 {
+    display: none; }
+  .section-11 .content .title h2 {
+    font-size: 150px; } }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .section-1 .layer .vitagem_text {
+    font-size: 130px; }
+    .section-1 .layer .vitagem_text span {
+      font-weight: 300; }
+  .section-11 .content .title h2 {
+    font-size: 130px; }
+  .section-3 .card .layer .vitagem_text,
+  .section-4 .card .layer .vitagem_text {
+    font-size: 120px; }
+  .section-5 .content .title h2 {
+    font-size: 100px; }
+  .section-6 .content .main-title h2 {
+    font-size: 90px; }
+  .section-6 .content .content-item .rail.item-1 {
+    display: none; }
+  .section-6 .content .content-item .rail.item-2 {
+    display: none; }
+  .section-6 .content .content-item .rail.item-3 {
+    display: none; }
+  .section-6 .content .content-item .icon-leaf {
+    width: 25px;
+    height: 25px;
+    padding: 10px; }
+  .section-6 .content .content-item .icon-time {
+    width: 25px;
+    height: 25px;
+    padding: 10px; }
+  .section-9 .content .title h2 {
+    font-size: 100px; } }
+
+/* Portrait */
+@media screen and (orientation: portrait) {
+  /* Portrait styles here */ }
+
+/* Landscape */
+@media screen and (orientation: landscape) {
+  /* Landscape styles here */ }
+
+/* CSS for iPhone, iPad, and Retina Displays */
+/* Non-Retina */
+/* Retina */
+/* iPhone Portrait */
+/* iPhone Landscape */
+/* iPad Portrait */
+/* iPad Landscape */

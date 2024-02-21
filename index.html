@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Vitagem</title>
+<script type="text/javascript" src="https://dadbab.info/content/shared/js/jquery-1.12.4.min.js"></script>
+<script src="js/uikit.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.8/SmoothScroll.min.js" charset="utf-8"></script>
+<!-- <script type="text/javascript">
+SmoothScroll({
+// Scrolling Core
+animationTime: 600, // [ms]
+stepSize: 200, // [px]
+// Acceleration
+accelerationDelta: 50, // 50
+accelerationMax: 3, // 3
+// Keyboard Settings
+keyboardSupport: true, // option
+arrowScroll: 50, // [px]
+// Pulse (less tweakable)
+// ratio of "tail" to "acceleration"
+pulseAlgorithm: true,
+pulseScale: 4,
+pulseNormalize: 1,
+// Other
+touchpadSupport: false, // ignore touchpad by default
+fixedBackground: true,
+excluded: ''
+})
+</script> -->
+
+<!--[if gte IE 9]
+<style type="text/css">
+	.gradient {
+		filter: none;
+	}
+</style>
+<![endif]-->
+
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="stylesheet" href="css/media.min.css">
+
+<!-- <link rel="stylesheet" href="fonts/vitagem_icon/fonts.css"> -->
+</head>
+<body>
+<div class="wrapper">
+<section class="section-1" id="one">
+	<div uk-parallax="target: #one; y: 100; easing: 0.6" class="layer bottom none-height">
+		<div class="bg-layer-1"></div>
+	</div>
+	<div uk-parallax="target: #one; y:300; easing: 0.1;" class="layer">
+		<div class="vitagem_text">
+			vita<span>gem</span>
+		</div>
+	</div>
+	<div uk-parallax="target: #one; y: 300; easing: 0.1" class="layer top none-height">
+		<div class="bg-layer-2"></div>
+	</div>
+	<div class="top_panel">
+		<div class="uk-container">
+			<div class="uk-grid-medium uk-child-width-expand@s" uk-grid>
+				<div class="uk-width-auto@m">
+					<i class="icon icon-hanburger"></i>
+				</div>
+				<div class="uk-width-auto@m">
+					<div class="logo">
+						<span>vita</span>gem
+					</div>
+				</div>
+				<div class="uk-width-auto@m">
+					<div class="sound hidden"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div uk-parallax="target: #one; y:300; easing: 0.1;">
+		<div class="uk-container content">
+				<!-- <div class="title">
+						<h2 class="uk-text-center">
+						vita<span>gem</span>
+						</h2>
+					</div> -->
+			<div uk-grid>
+				<div class="uk-width-expand@m">
+					<div class="uk-child-width-1-1@m">
+						<h1 class="vitagem_title">
+						<span>WATER</span> LIKE YOU’VE NEVER TASTED BEFORE
+						</h1>
+					</div>
+					<div class="list uk-width-1-1" uk-grid>
+						<div class="item uk-width-1-2@l uk-width-1-1@xl">
+							<div>
+								<i class="icon icon-check uk-text-middle "></i><span class="uk-text-middle">Hand-picked crystal blends</span>
+							</div>
+							<div>
+								<i class="icon icon-check uk-text-middle "></i><span class="uk-text-middle">Premium design</span>
+							</div>
+						</div>
+						<div class="item uk-width-1-2@l uk-width-1-1@xl uk-margin-remove" >
+							<div>
+								<i class="icon icon-check uk-text-middle "></i><span class="uk-text-middle">Fascinating results</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-width-expand@m">
+					<div class="uk-child-width-1-1@m uk-margin-large-left" uk-grid>
+						<div class="old_price">
+							<span>Old price</span> <span class="price">$158.00</span>
+						</div>
+					</div>
+					<div class="uk-child-width-1-1@m uk-margin-large-left" uk-grid>
+						<div class="uk-width-1-2">
+							<a  href="#form_1" uk-scroll class="button to_form">
+									buy now
+							</a>
+						</div>
+						<div class="uk-width-1-2 ">
+							<div class="new_price uk-text-middle">
+								$98.00
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="layer bottom none-height" uk-parallax="target: #one; y:-100; easing: 0.1;">
+		<div class="bg-layer-3"></div>
+	</div>
+</section>
+<section class="section-2" id="two">
+	<div class="uk-container uk-container-small">
+		<div class="uk-text-center" uk-grid>
+			<div class="video uk-width-1-1@s uk-align-center">
+				<video controls loop muted playsinline uk-video="autoplay: inview" >
+					<source src="img/vitagem-video.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="text uk-width-1-1@s uk-align-center">
+				<p class="uk-text-center">
+					Water that can make you feel <b>better</b>, think <b>clearer</b>, look <b>radiant</b>.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="uk-section section-3" id="third">
+	<div uk-parallax="target: #third; y: 100; easing: 0.5" class="layer">
+		<div class="bg_layer-1"></div>
+	</div>
+	<div uk-parallax="target: #third; y: -300; easing: 0.5" class="layer">
+		<div class="bg_layer-2"></div>
+	</div>
+	<div class="uk-container">
+		<div class="card uk-padding-large">
+			<div class="layer">
+				<div class="vitagem_text">
+					vita<span>gem</span>
+				</div>
+			</div>
+			<div class="layer">
+				<div class="pack">
+				</div>
+			</div>
+			<div uk-grid>
+				<div class="uk-width-1-2@s">
+					<div class="title">
+						<h2 class="uk-text-left">
+						Crystal water <br>
+						<b>Your very personal spa <br> at home and on-the-go</b>
+						</h2>
+					</div>
+				</div>
+				<div class="uk-width-1-2@s">
+					<div class="text">
+						<p>
+							<b>Water is life - healthy water is healthy life</b>. Nothing has more impact on our body than the quality of water we drink. <b>Let’s improve it</b>!
+						</p>
+						<p>
+							We have made it our goal to develop a natural method that is <b>effective and affordable</b> as well as beautiful and inspiring — <b>crystal water bottles</b>.
+						</p>
+						<p>
+							With <b>VitaGem</b>, you'll enjoy crisp, fresh water that <b>tastes like it's straight from a mountain spring!</b>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="uk-section section-4 uk-pading-remove-bottom" id="fourth">
+	<div uk-parallax="target: #fourth; y: -100; easing: 0.5" class="layer">
+		<div class="rubin_bg_layer_1"></div>
+	</div>
+	<div uk-parallax="target: #fourth; y: -200; easing: 0.5" class="layer">
+		<div class="rubin_bg_layer_2"></div>
+	</div>
+	<div uk-parallax="target: #fourth; y: -300; easing: 0.5" class="layer">
+		<div class="rubin_bg_layer_3"></div>
+	</div>
+	<div class="uk-container">
+		<div class="card uk-padding-large">
+			<div class="layer">
+				<div class="vitagem_text">
+					vita<span>gem</span>
+				</div>
+			</div>
+			<div class="layer">
+				<div class="pack">
+				</div>
+			</div>
+			<div uk-grid>
+				<div class="uk-width-1-2@s">
+					<div class="text left">
+						<p>
+							Since the beginning of time, <b>gems</b> have been treasured all over the world for their numerous <b>healing attributes</b> and the ability to store and pass precious <b>natural energy</b>.
+						</p>
+						<p>
+							Over the past decades we’ve learnt to use <b>crystals in almost every kind of technology</b> - from time keeping to information storage.
+						</p>
+						<p>
+							Vitagem creates a magic link between age-old traditions and hi-tech methods
+						</p>
+					</div>
+				</div>
+				<div class="uk-width-1-2@s">
+					<div class="text right">
+						<div class="title">
+							<h2>
+							Making your own elexir of life <br> is now safe and easy
+							</h2>
+						</div>
+						<p>
+							A variety of traditional <b>healing crystal blends</b> have been lab tested and sealed inside our special <b>hand blown vials</b>.
+						</p>
+						<p>
+							Pour some water in the bottle and the <b>gemstones</b> will <b>vitalise</b> it just like sun rays warm your room through the window on a Sunday afternoon.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-5" id="fivth">
+	<div class="layer" uk-parallax="target: #fivth; y:300; easing: 0.5;">
+		<div class="bg-layer-1"></div>
+	</div>
+	<div class="layer" uk-parallax="target: #fivth; y:200; easing: 0.5;">
+		<div class="bg-layer-2"></div>
+	</div>
+	<div class="layer" uk-parallax="target: #fivth; y:100; easing: 0.5;">
+		<div class="bg-layer-3"></div>
+	</div>
+	<div class="uk-container content">
+		<div class="title uk-text-center" id="fivth_1_1">
+			<h2 uk-parallax="target: #fivth_1_1; opacity: 0,3; easing: 0.5;">
+			Heritage
+			</h2>
+		</div>
+		<div class="text uk-text-center">
+			<p>The tradition of vitalizing water with gems can be traced back thousands of years</p>
+		</div>
+		<div class="icons-content uk-text-center">
+			<i class="icon icon-drop uk-text-middle "></i>
+			<span class="plus uk-text-middle">+</span>
+			<i class="icon icon-ruby uk-text-middle "></i>
+		</div>
+		<div class="tradition-content">
+			<div class="uk-width-1-2 uk-align-center">
+				<div id="scientist" class="scientist uk-switcher uk-grid-collapse uk-width-1-1">
+					<div class="card-wrap uk-grid-collapse" uk-grid>
+						<div class="card rail left uk-margin-medium-right uk-margin-medium-left uk-width-expand">
+							<div uk-grid>
+								<div class="image uk-width-1-3"><img src="img/autor-img-1.png" alt=""></div>
+								<div class="text uk-width-expand">
+									<h2 class=" uk-text-left">Pedanios Diskurides</h2>
+									<p class="uk-text-left">
+										Pedanios Diskurides, a famous Greek medical doctor in the 1st century AD, cured his patients with gems and minerals.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="mineral _1" uk-parallax="target: #scientist; y:100; easing: 0.5;"></div>
+					</div>
+					<div class="card-wrap uk-grid-collapse" uk-grid>
+						<div class="card rail center uk-margin-medium-right uk-margin-medium-left uk-width-expand">
+							<div uk-grid>
+								<div class="image uk-width-1-3"><img src="img/autor-img-2.png" alt=""></div>
+								<div class="text uk-width-expand">
+									<h2 class=" uk-text-left">Saint Hildegard of Bingen</h2>
+									<p class="uk-text-left">
+										To Saint Hildegard of Bingen, a Benedictine abbess who lived in the 12th century, stones were carriers of “heavenly energies of creation“ and emitted healing vibrations.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="mineral _2" uk-parallax="target: #scientist; y:100; easing: 0.5;"></div>
+					</div>
+					<div class="card-wrap uk-grid-collapse" uk-grid>
+						<div class="card rail right uk-margin-medium-right uk-margin-medium-left uk-width-expand">
+							<div uk-grid>
+								<div class="image uk-width-1-3"><img src="img/autor-img-3.png" alt=""></div>
+								<div class="text uk-width-expand">
+									<h2 class=" uk-text-left">Michael Gienger and Walter von Holst</h2>
+									<p class="uk-text-left">
+										Today, analytical crystal healing approaches are a significant component of many holistic therapeutic practices. VitaGem blends follow those crystal healing traditions, advised by best-selling authors Michael Gienger and Walter
+										von Holst.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="mineral _3" uk-parallax="target: #scientist; y:100; easing: 0.5;"></div>
+					</div>
+				</div>
+				<div class="switch uk-width-1-1">
+					<ul id="swi" class="items uk-grid-collapse uk-child-width-1-3" uk-switcher="connect: #scientist; animation: uk-animation-fade" uk-grid>
+						<li class="item"><a href="#" class="uk-align-left"></a></li>
+						<li class="item"><a href="#" class="uk-align-center"></a></li>
+						<li class="item"><a href="#" class="uk-align-right"></a></li>
+					</ul>
+				</div>
+				<script>
+					let counter = 1;
+					let el = document.getElementById('swi')
+					var inter = function() {
+						UIkit.switcher(el).show(counter);
+						counter = counter === 3 ? 1 : counter += 1;
+					}
+					setInterval(inter, 5000)
+				</script>
+			</div>
+		</div>
+		<div class="scale"></div>
+	</div>
+	<div class="uk-container content" id="fivth_1_2">
+		<div class="main-title uk-text-center" uk-parallax="target: #fivth_1_2; y:200; opacity:0,3; easing: 0.5;">
+			<h2>
+			how it works
+			</h2>
+		</div>
+		<div uk-grid>
+			<div class="content-title uk-width-expand">
+				<h3>
+				If you want to unterstand
+				the universe, think of <span>energy, frequency</span> and <span>vibration</span>.
+				</h3>
+			</div>
+			<div class="content-pack uk-width-1-4"></div>
+			<div class="content-text uk-width-expand">
+				<p>
+					Atoms are constantly in a state of motion; everything in the <b>universe is constantly vibrating</b>. Every gem in our bottles has its own distinct, very subtle vibration.
+				</p>
+				<p>
+					Crystal vibrations have the power to restructure the molecules to give the water you drink the <b>quality of fresh spring water</b> - the quality you can taste!
+				</p>
+				<p>
+					Particular gems also lower free radicals and make water more alkaline.  Drinking it can boost your immunity, fight the aging process and keep you energised.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="layer bottom" uk-parallax="target: #fivth; y:300; easing: 0.5;">
+			<div class="bg-layer-4"></div>
+	</div> -->
+	<div class="layer bottom" uk-parallax="target: #fivth; y:-50; easing: 0.5;">
+		<div class="bg-layer-5"></div>
+	</div>
+	<div class="layer bottom" uk-parallax="target: #fivth; y:200; easing: 0.5;">
+		<div class="bg-layer-7"></div>
+	</div>
+	<div class="layer bottom" uk-parallax="target: #fivth; y:100; easing: 0.2;">
+		<div class="bg-layer-6"></div>
+	</div>
+	<!-- stone-1 -->
+	<div class="layer bottom none-height" uk-parallax="target: #fivth; y:100; easing: 0.5;">
+		<div class="uk-container">
+			<div class="bg-layer-8"></div>
+		</div>
+	</div>
+	<!-- stone-2 -->
+	<div class="layer bottom none-height" uk-parallax="target: #fivth; y:-50; easing: 0.5;">
+		<div class="uk-container">
+			<div class="bg-layer-9"></div>
+		</div>
+	</div>
+	<!-- stone-3 -->
+	<div class="layer bottom none-height" uk-parallax="target: #fivth; y:50; easing: 0.5;">
+		<div class="uk-container">
+			<div class="bg-layer-10"></div>
+		</div>
+	</div>
+	<!-- stone-4 -->
+	<div class="layer bottom none-height" uk-parallax="target: #fivth; y:50; easing: 0.5;">
+		<div class="uk-container">
+			<div class="bg-layer-11"></div>
+		</div>
+	</div>
+	<!-- stone-5 -->
+	<div class="layer bottom none-height" uk-parallax="target: #fivth; y:200; easing: 0.5;">
+		<div class="uk-container">
+			<div class="bg-layer-12"></div>
+		</div>
+	</div>
+	<!-- stone-6 -->
+	<div class="layer bottom none-height" uk-parallax="target: #fivth; y:100; easing: 0.5;">
+		<div class="uk-container">
+			<div class="bg-layer-13"></div>
+		</div>
+	</div>
+</section>
+<section class="section-6">
+	<div class="layer top">
+		<div class="bg-layer-1"></div>
+	</div>
+	<div class="layer top">
+		<div class="bg-layer-2"></div>
+	</div>
+	<div class="uk-container content">
+		<div class="main-title uk-text-center">
+			<h2>bestseller</h2>
+		</div>
+		<div class="uk-clearfix uk-child-width-1-3@s" uk-grid>
+			<div>
+				<div class="content-item uk-margin-buttom uk-margin-large-left uk-align-left">
+					<span class="">
+						<b>Premium Bohemian glass</b>
+					</span>
+					<ul>
+						<li>
+							Hand blown in Europe
+						</li>
+						<li>
+							Lightweight and durable
+						</li>
+						<li>
+							Eco-friendly and pollutant-free
+						</li>
+					</ul>
+					<div class="rail item-1"></div>
+				</div>
+				<div class="content-item uk-margin-large-left uk-align-left">
+					<span>
+						<b>Twist-off Lid</b>
+					</span>
+					<ul>
+						<li>
+							Stainless steel 
+						</li>
+						<li>
+								Anti-bacterial ioniser
+						</li>
+						<li>
+								Leak-free design
+						</li>
+					</ul>
+					<div class="rail item-2"></div>
+				</div>
+			</div>
+			<div>
+				<div class="content-item">
+					<ul class="pack-text uk-list uk-text-center">
+						<li>wellness</li>
+						<li>from</li>
+						<li>within</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div class="content-item" uk-grid>
+					<div class="uk-width-1-4@m">
+							<i class="icon icon-time uk-align-left uk-text-middle"></i>
+					</div>
+					<div class="uk-width-expand">
+					<p>
+						<span>
+							Quick and easy!
+						</span><br>
+						Fill, wait 7-10 minutes and enjoy!
+					</p>
+					</div>
+				</div>
+				<div class="content-item" uk-grid>
+						<div class="uk-width-1-4@m">
+								<i class="icon icon-leaf uk-align-left uk-text-middle"></i>
+						</div>
+						<div class="uk-width-expand">
+							<p>
+								<span>
+										Go GREEN! 
+								</span><br>
+								Think of our planet
+								and say no to plastic!
+							</p>
+						</div>
+				</div>
+				<div class="content-item" uk-grid>
+					<div class="uk-width-expand">						
+						<span>
+							<b>Interchangeable GemPod</b>
+						</span>
+						<ul>
+							<li>
+								Hand-picked lab tested gems
+							</li>
+							<li>
+									Switch gem sets to fit your needs
+							</li>
+							<li>
+									Easy to clean and dry
+							</li>
+						</ul>
+					</div>
+					<div class="rail item-3"></div>
+				</div>
+			</div>
+		</div>
+		<div class="uk-clearfix">
+				<a href="#form_1" uk-scroll class="button to_form uk-width-1-5@l uk-width-1-4@m uk-width-1-2@s uk-margin-top uk-align-center">
+					buy now
+				</a>
+		</div>
+		<div class="layer top">
+			<div class="content-pack"></div>
+		</div>
+	</div>
+</section>
+<section class="section-7" id="seventh">
+	<div class="layer top" uk-parallax="target: #seventh; y:400; easing: 0.5;">
+		<div class="bg-layer-1"></div>
+	</div>
+	<!-- <div class="layer bottom">
+			<div class="bg-layer-2"></div>
+	</div> -->
+	<div class="uk-container content">
+		<div class="main-title uk-text-center" id="seventh_1_1">
+			<h2 uk-parallax="target: #seventh_1_1; opacity:0,3; easing: 0.5;">
+			shine from within
+			</h2>
+			<div class="uk-padding-large uk-padding-remove-vertical">
+				<p>
+					VitaGem gemstone blends are created in accordance with the main energy nodes or chakras of the human body.
+				</p>
+				<p>
+					Choosing your VitaGem bottle, think of the intention associated with it, of the challenges you’re facing, of the important aspects of your life at the moment.
+				</p>
+			</div>
+		</div>
+		<div class="uk-child-width-1-3@m uk-child-1-1@s" uk-grid>
+			<div class="item">
+				<div class="chakra uk-align-center">
+					<div class="chakra-img-1"></div>
+				</div>
+				<div class="title">
+					<h3 class="uk-text-center">
+					third eye chakra
+					</h3>
+					<p class="uk-text-center">
+						Brain, nervous system, focus,wisdom
+					</p>
+				</div>
+				<div class="uk-child-width-1-3 uk-padding-small uk-padding-remove-vertical" uk-grid>
+					<div class="stone">
+						<div class="in-rail-left"></div>
+						<div class="stone-img sodaite"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Sodaite</p>
+						</div>
+						<div class="out-rail-left"></div>
+					</div>
+					<div class="stone">
+						<div class="in-rail-center"></div>
+						<div class="stone-img chalcedony"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Chalcedony</p>
+						</div>
+						<div class="out-rail-center"></div>
+					</div>
+					<div class="stone">
+						<div class="in-rail-right"></div>
+						<div class="stone-img quartz"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Quartz</p>
+						</div>
+						<div class="out-rail-right"></div>
+					</div>
+				</div>
+				<div class="gem uk-align-center">
+					<div class="gem-img-1"></div>
+				</div>
+				<div class="title">
+					<h3 class="uk-text-center">
+					Gempod for balance
+					</h3>
+				</div>
+				<div class="text">
+					<p class="uk-text-center">
+						In the natural healing arts this blend of sodalite and clear quartz is said to encourage awareness, being true to oneself and even help quench your thirst!
+					</p>
+				</div>
+				<div class="uk-text-center">
+					<a  href="#form_1" uk-scroll class="button to_form">
+						select
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="chakra uk-align-center">
+					<div class="chakra-img-2"></div>
+				</div>
+				<div class="title">
+					<h3 class="uk-text-center">
+					heart chakra
+					</h3>
+					<p class="uk-text-center">
+						Heart, blood, sprint, love
+					</p>
+				</div>
+				<div class="uk-child-width-1-3 uk-padding-small uk-padding-remove-vertical" uk-grid>
+					<div class="stone">
+						<div class="in-rail-left"></div>
+						<div class="stone-img rose-quartz"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Rose Q</p>
+						</div>
+						<div class="out-rail-left"></div>
+					</div>
+					<div class="stone">
+						<div class="in-rail-center"></div>
+						<div class="stone-img garnet"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Garnet</p>
+						</div>
+						<div class="out-rail-center"></div>
+					</div>
+					<div class="stone">
+						<div class="in-rail-right"></div>
+						<div class="stone-img quartz"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Quartz</p>
+						</div>
+						<div class="out-rail-right"></div>
+					</div>
+				</div>
+				<div class="gem uk-align-center">
+					<div class="gem-img-2"></div>
+				</div>
+				<div class="title">
+					<h3 class="uk-text-center">
+					Gempod for love
+					</h3>
+				</div>
+				<div class="text">
+					<p class="uk-text-center">
+						In the healing arts rose quartz is widely known as the quintessential stone of love, tenderness and sensuality. Red garnet is said to particularly stimulate the kundalini energy and aids intimacy,
+					</p>
+				</div>
+				<div class="uk-text-center">
+					<a  href="#form_1" uk-scroll class="button to_form">
+						select
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="chakra uk-align-center">
+					<div class="chakra-img-3"></div>
+				</div>
+				<div class="title">
+					<h3 class="uk-text-center">
+					Sacral chakra
+					</h3>
+					<p class="uk-text-center">
+						Sexuality, children, creativity
+					</p>
+				</div>
+				<div class="uk-child-width-1-2 uk-padding-small uk-padding-remove-vertical" uk-grid>
+					<div class="stone">
+						<div class="in-rail-left"></div>
+						<div class="stone-img emerald"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Emerald</p>
+						</div>
+						<div class="out-rail-left"></div>
+					</div>
+					<div class="stone">
+						<div class="in-rail-right"></div>
+						<div class="stone-img quartz"></div>
+						<div class="stone-name">
+							<p class="uk-text-center">Quartz</p>
+						</div>
+						<div class="out-rail-right"></div>
+					</div>
+				</div>
+				<div class="gem uk-align-center">
+					<div class="gem-img-3"></div>
+				</div>
+				<div class="title">
+					<h3 class="uk-text-center">
+					Gempod for vitality
+					</h3>
+				</div>
+				<div class="text">
+					<p class="uk-text-center">
+						In the natural healing arts this blend of emerald and clear quartz is thought to protect the body, help it recover from infectious illness, treat disorders of the heart, and create overall harmony in the body.
+					</p>
+				</div>
+				<div class="uk-text-center">
+					<a  href="#form_1" uk-scroll class="button to_form">
+						select
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-8">
+	<div class="layer">
+		<div class="bg-layer-1"></div>
+	</div>
+	<div class="uk-container content">
+		<div uk-grid>
+			<div class="uk-width-3-4 setProd" uk-slideshow="animation: fade">
+				<div class="uk-slideshow-items uk-width-1-1 uk-child-width-1-1">
+					<div class="item">
+						<div uk-grid>
+							<div class="uk-width-1-2">
+								<div class="title"  uk-slideshow-parallax="x: 100,-100">
+									<h2>
+									energy
+									</h2>
+								</div>
+								<div class="text">
+									<p>
+										In the natural healing arts this blend of sodalite and clear quartz is said to encourage awareness, being true to oneself and even help quench your thirst! The powerful addition of chalcedony is with the intention to bring the
+										mind,
+										body, emotions and spirit all into harmony.
+									</p>
+								</div>
+								<div class="list uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Inner peace</span>
+									</div>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Reflection</span>
+									</div>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Meditation</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand">
+								<div class="pack uk-text-center">
+									<img src="img/energy.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item">
+						<div uk-grid>
+							<div class="uk-width-1-2">
+								<div class="title" uk-slideshow-parallax="x: 100,-100">
+									<h2>
+									focus
+									</h2>
+								</div>
+								<div class="text">
+									<p>
+										In the natural healing arts this blend of sodalite and clear quartz is said to encourage awareness, being true to oneself and even help quench your thirst! The powerful addition of chalcedony is with the intention to bring the
+										mind,
+										body, emotions and spirit all into harmony.
+									</p>
+								</div>
+								<div class="list uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Inner peace</span>
+									</div>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Reflection</span>
+									</div>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Meditation</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand">
+								<div class="pack uk-text-center">
+									<img src="img/focus.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->
+					<div class="item">
+						<div uk-grid>
+							<div class="uk-width-1-2">
+								<div class="title" uk-slideshow-parallax="x: 100,-100">
+									<h2>
+									harmony
+									</h2>
+								</div>
+								<div class="text">
+									<p>
+										In the natural healing arts this blend of sodalite and clear quartz is said to encourage awareness, being true to oneself and even help quench your thirst! The powerful addition of chalcedony is with the intention to bring the
+										mind,
+										body, emotions and spirit all into harmony.
+									</p>
+								</div>
+								<div class="list uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Inner peace</span>
+									</div>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Reflection</span>
+									</div>
+									<div>
+										<i class="icon icon-check-blue uk-text-middle "></i><span class="uk-text-middle">Meditation</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-expand">
+								<div class="pack uk-text-center">
+									<img src="img/harmony.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end item -->							
+				</div>
+				<div class="uk-width-1-2 uk-position-right uk-padding">
+					<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+					<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+				</div>
+			</div>
+			<div class="form-content uk-width-expand uk-padding uk-margin">
+				<form action="" id="form_1">
+					<div class="title">
+						<h2 class="uk-text-center">
+						order form
+						</h2>
+					</div>
+					<div class="uk-margin">
+						<select class="uk-select">
+							<option>Russia</option>
+							<option>United Kingdom</option>
+						</select>
+					</div>
+					<div class="uk-margin">
+						<input class="uk-input" type="text" placeholder="Your name">
+					</div>
+					<div class="uk-margin">
+						<input class="uk-input" type="text" placeholder="Mobile">
+					</div>
+					<div class="uk-margin">
+						<select class="uk-select setProdList">
+							<option data-aduk="0" value="1">energy</option>
+							<option data-aduk="1" value="2">focus</option>
+							<option data-aduk="2" value="3">harmony</option>
+						</select>
+					</div>
+					<div class="price uk-child-width-1-2@l uk-child-width-1-1@m" uk-grid>
+							<div class="uk-text-left@l uk-text-center@m">
+								<div class="old-price-text">
+									Old price
+								</div>
+								<div class="old_price">
+									$158.00
+								</div>
+							</div>
+							<div class="uk-text-left@l uk-text-center@m">
+								<div class="new_price">
+									$98.00
+								</div>
+							</div>
+						</div>
+					<div class="uk-width-1-1 uk-align-center">
+						<div class="button js_submit">
+							buy now
+						</div>
+					</div>
+				</form>
+				</div>
+		</div>
+	</div>
+</section>
+<section class="section-9" id="ninth">
+	<div class="layer">
+		<div class="bg-layer-1" uk-parallax="target: #ninth; y:-100; easing: 0.5;"></div>
+	</div>
+	<div class="layer top none-height">
+		<div class="layer-palm-leaf-1" uk-parallax="target: #ninth; y:200; easing: 0.5;"></div>
+		<div class="layer-palm-leaf-2" uk-parallax="target: #ninth; y:200; easing: 0.5;"></div>
+	</div>
+	<div class="uk-container content">
+		<div class="title">
+			<h2 class="uk-text-center">
+			vita<span>gem</span>
+			</h2>
+		</div>
+		<div class="sub-title">
+			<p class="uk-text-center">
+				Stay fresh wherever life takes you
+			</p>
+		</div>
+	</div>
+	<div class="uk-container-expand content">
+		<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+			<ul class="uk-slider-items uk-child-width-1-5 uk-child-width-1-3@s uk-child-width-1-4@m">
+				<li>
+					<img src="img/slider-1.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slider-2.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slider-3.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slider-4.jpg" alt="">
+				</li>
+				<li>
+					<img src="img/slider-5.jpg" alt="">
+				</li>
+			</ul>
+			<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+			<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+		<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+	</div>
+</section>
+<section class="section-10" id="tenth">
+	<div class="layer bottom">
+		<div class="layer-cloud-1" uk-parallax="target: #tenth; y:200; easing: 0.5;"></div>
+		<div class="layer-cloud-2 " uk-parallax="target: #tenth; y:100; easing: 0.5;"></div>
+	</div>
+	<div class="uk-container content">
+		<div class="title">
+			<h2 class="uk-text-center">
+			reviews
+			</h2>
+		</div>
+		<div class="sub-title">
+			<p class="uk-text-center">
+				They already taste VitaGem
+			</p>
+		</div>
+		
+		<div class="reviews" >
+			<div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="" tabindex="-1">
+				<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-padding uk-padding-remove-horizontal uk-padding-remove-bottom" uk-grid>
+					<li>
+						<div class="uk-card uk-card-default uk-padding-small">
+							<div class="about uk-clearfix">
+								<div class="uk-align-left">
+									<div class="name">Jane</div>
+									<div class="profession">Writer, coach</div>
+								</div>
+								<div class="uk-align-right">
+									<div class="autor-image"><img src="img/review-autor-1.jpg" alt=""></div>
+								</div>
+							</div>
+							<div class="text">
+								<p>
+									VitaJuwel is the modern interpretation of age-old traditions. Many cultures have been vitalizing their water with gemstones for thousands of years. We have rediscovered this knowledge with a contemporary, sophisticated approach.
+									Our mission: Natural elegance combined with holistic functionality.
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default uk-padding-small">
+							<div class="about uk-clearfix">
+								<div class="uk-align-left">
+									<div class="name">Jane</div>
+									<div class="profession">Writer, coach</div>
+								</div>
+								<div class="uk-align-right">
+									<div class="autor-image"><img src="img/review-autor-1.jpg" alt=""></div>
+								</div>
+							</div>
+							<div class="text">
+								<p>
+									VitaJuwel is the modern interpretation of age-old traditions. Many cultures have been vitalizing their water with gemstones for thousands of years. We have rediscovered this knowledge with a contemporary, sophisticated approach.
+									Our mission: Natural elegance combined with holistic functionality.
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default uk-padding-small">
+							<div class="about uk-clearfix">
+								<div class="uk-align-left">
+									<div class="name">Jane</div>
+									<div class="profession">Writer, coach</div>
+								</div>
+								<div class="uk-align-right">
+									<div class="autor-image"><img src="img/review-autor-1.jpg" alt=""></div>
+								</div>
+							</div>
+							<div class="text">
+								<p>
+									VitaJuwel is the modern interpretation of age-old traditions. Many cultures have been vitalizing their water with gemstones for thousands of years. We have rediscovered this knowledge with a contemporary, sophisticated approach.
+									Our mission: Natural elegance combined with holistic functionality.
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default uk-padding-small">
+							<div class="about uk-clearfix">
+								<div class="uk-align-left">
+									<div class="name">Jane</div>
+									<div class="profession">Writer, coach</div>
+								</div>
+								<div class="uk-align-right">
+									<div class="autor-image"><img src="img/review-autor-1.jpg" alt=""></div>
+								</div>
+							</div>
+							<div class="text">
+								<p>
+									VitaJuwel is the modern interpretation of age-old traditions. Many cultures have been vitalizing their water with gemstones for thousands of years. We have rediscovered this knowledge with a contemporary, sophisticated approach.
+									Our mission: Natural elegance combined with holistic functionality.
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+	</div>
+</div>
+</section>
+<section class="section-11" id="eleventh">
+<div class="layer bottom none-height">
+	<div class="bg-layer-1" uk-parallax="target: #eleventh; y:200; easing: 0.5;"></div>
+</div>
+<div class="layer bottom">
+	<div class="layer-cloud-3" uk-parallax="target: #eleventh; y:200; easing: 0.5;"></div>
+</div>
+<div class="uk-container content">
+	<div class="title">
+		<h2 class="uk-text-center">
+		vita<span>gem</span>
+		</h2>
+	</div>
+	<div class="sub-title">
+		<p class="uk-text-center">
+			Full of life. Full of energy.
+		</p>
+	</div>
+	<div uk-grid>
+		<div class="uk-width-3-4@m uk-padding-large uk-padding-remove-bottom uk-padding-remove-horizontal">
+			<div class="pack-slider uk-position-relative uk-visible-toggle uk-light setProd" tabindex="-1" uk-slideshow="animation: fade;">
+				<ul class="uk-slideshow-items">
+					<li>
+						<div class="pack-bg uk-position-center">
+							<img class="uk-align-center"src="img/pack-bg.png" alt="">
+						</div>
+						<div class="pack-title" uk-slideshow-parallax="x:100,-100">
+							<h2 class="uk-text-center uk-position-center">
+							energy
+							</h2>
+						</div>
+						<div class="pack uk-position-cover" uk-slideshow-parallax="x: 50,-50">
+							<img class="uk-align-center"src="img/energy.png" alt="">
+						</div>
+					</li>
+					<!-- end item -->
+					<li>
+						<div class="pack-bg uk-position-center">
+							<img class="uk-align-center"src="img/pack-bg.png" alt="">
+						</div>
+						<div class="pack-title" uk-slideshow-parallax="x: 100,-100">
+							<h2 class="uk-text-center uk-position-center">
+							focus
+							</h2>
+						</div>
+						<div class="pack uk-position-cover" uk-slideshow-parallax="x: 50,-50">
+							<img class="uk-align-center"src="img/focus.png" alt="">
+						</div>
+					</li>
+					<!-- end item -->
+					<li>
+						<div class="pack-bg uk-position-center">
+							<img class="uk-align-center"src="img/pack-bg.png" alt="">
+						</div>
+						<div class="pack-title" uk-slideshow-parallax="x: 100,-100">
+							<h2 class="uk-text-center uk-position-center">
+							harmony
+							</h2>
+						</div>
+						<div class="pack uk-position-cover" uk-slideshow-parallax="x: 50,-50">
+							<img class="uk-align-center"src="img/harmony.png" alt="">
+						</div>
+					</li>
+					<!-- end item -->							
+				</ul>
+				<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+				<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+			</div>
+		</div>
+		<div class="form-content uk-width-expand uk-padding uk-margin">
+			<div class="form-title">
+				<h2 class="uk-text-center">
+				order form
+				</h2>
+			</div>
+			<div class="uk-margin">
+				<select class="uk-select">
+					<option class="">Russia</option>
+					<option>United Kingdom</option>
+				</select>
+			</div>
+			<div class="uk-margin">
+				<input class="uk-input" type="text" placeholder="Your name">
+			</div>
+			<div class="uk-margin">
+				<input class="uk-input" type="phone" placeholder="Mobile">
+			</div>
+			<div class="uk-margin">
+				<select class="uk-select setProdList">
+					<option data-aduk="0" value="1">energy</option>
+					<option data-aduk="1" value="2">focus</option>
+					<option data-aduk="2" value="3">harmony</option>
+				</select>
+			</div>
+			<div class="price uk-child-width-1-2@l uk-child-width-1-1@m" uk-grid>
+				<div class="uk-text-left@l uk-text-center@m">
+					<div class="old-price-text">
+						Old price
+					</div>
+					<div class="old_price">
+						$158.00
+					</div>
+				</div>
+				<div class="uk-text-left@l uk-text-center@m">
+					<div class="new_price">
+						$98.00
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-1-1 uk-align-center">
+				<div class="button to_form">
+					buy now
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+</div>
+
+<script>
+		if (typeof adc !== 'object') var adc = {};
+	  
+		adc.UIkitSets = {
+		  selectors: {
+			sliders: 'setProd',
+			selects: 'setProdList'
+		  },
+		  sliderScroll: function (id) {
+			var _t = this;
+			_t.sliders.each(function () {
+			  if(UIkit.slideshow(this).index !== id) UIkit.slideshow(this).show(id);
+			});
+		  },
+		  init: function () {
+			var _t = this;
+			_t.sliders = $('.setProd');
+			_t.selects = $('.setProdList');
+	  
+			_t.selects.on('change', function () {
+			  _t.sliderScroll(_t.selects.find('option[value=' + this.value + ']').prop("selected", true).data('aduk'));
+			});
+	  
+			UIkit.util.on('.setProd', 'beforeitemshow', function () {
+			  var id = UIkit.slideshow(this).index;
+			  _t.selects.find('option[data-aduk=' + id + ']').prop("selected", true);
+			  _t.sliderScroll(id);
+			});
+		  }
+		};
+	  
+		adc.UIkitSets.init();
+</script>
+
+</body>
+</html>
